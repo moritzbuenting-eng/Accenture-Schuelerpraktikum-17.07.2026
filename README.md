@@ -1,0 +1,1 @@
+# Accenture-Schuelerpraktikum-17.07.2026
