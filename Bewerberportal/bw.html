@@ -6,7 +6,6 @@
 <title>Bewerbung – Schülerpraktikum Accenture</title>
 <link rel="stylesheet" href="style.css">
 <style>
-  /* --- Seiten-spezifische Ergänzungen (nutzen die Tokens aus style.css) --- */
 
   .bw-hero {
     background: radial-gradient(circle at 85% 15%, rgba(161,0,255,0.35), transparent 55%), var(--acc-black);
@@ -16,7 +15,7 @@
   .bw-hero h1 { color: var(--acc-white); margin-bottom: 14px; }
   .bw-hero p { color: rgba(255,255,255,0.72); max-width: 600px; font-size: 1.05rem; }
 
-  /* Prozess-Schritte */
+
   .bw-steps {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -49,7 +48,7 @@
   .bw-step:hover .bw-step-num { transform: translateX(4px); }
   .bw-step p { color: var(--acc-gray-600); font-size: 0.92rem; margin: 0; }
 
-  /* Testimonials */
+
   .bw-testi {
     background: var(--acc-white);
     border: 1px solid var(--acc-gray-300);
@@ -90,7 +89,7 @@
   .bw-author-name { font-weight: 600; font-size: 0.88rem; }
   .bw-author-role { font-size: 0.78rem; color: var(--acc-gray-600); }
 
-  /* CTA-Bereich mit Mail-Button */
+
   .bw-cta {
     background: var(--acc-gray-100);
     border-radius: var(--radius-lg);
@@ -115,14 +114,12 @@
   </ul>
 </nav>
 
-<!-- HERO -->
 <header class="bw-hero">
   <p class="acc-eyebrow" style="color:#B455FF;">Bewerberportal</p>
   <h1>Bewerbung fürs Schülerpraktikum</h1>
   <p>Hier erfährst du, wie der Bewerbungsprozess bei Accenture abläuft — und was unser Team dabei erlebt hat.</p>
 </header>
 
-<!-- BEWERBUNGSPROZESS -->
 <section class="acc-section">
   <div style="display:flex; align-items:baseline; gap:12px; margin-bottom:8px;">
     <span style="color:var(--acc-purple); font-family:var(--font-display); font-weight:700;">01</span>
@@ -156,7 +153,6 @@
   </div>
 </section>
 
-<!-- TESTIMONIALS -->
 <section class="acc-section" style="background:var(--acc-gray-100);">
   <div style="display:flex; align-items:baseline; gap:12px; margin-bottom:8px;">
     <span style="color:var(--acc-purple); font-family:var(--font-display); font-weight:700;">02</span>
@@ -203,7 +199,6 @@
   </p>
 </section>
 
-<!-- CTA / MAIL BUTTON -->
 <section class="acc-section">
   <div class="bw-cta">
     <h2>Bereit für die Bewerbung?</h2>
@@ -220,11 +215,7 @@
 </footer>
 
 <script>
-  // ==========================================================
-  // WICHTIG: Empfänger-Adresse hier eintragen/prüfen.
-  // Aus dem Foliensatz war die Adresse nicht klar lesbar —
-  // bitte mit der Original-Folie / dem Praktikums-Team abgleichen.
-  // ==========================================================
+
   const RECIPIENT_EMAIL = "Nilufar.Kolayci@accenture.com";
   const SUBJECT = "Bewerbung virtuelles Schülerpraktikum";
 
