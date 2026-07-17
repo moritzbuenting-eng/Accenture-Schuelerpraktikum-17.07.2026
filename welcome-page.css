@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #222222;
+    line-height: 1.6;
+}
+header{
+    background-color: #850dca;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+header h1{
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+header p{
+    font-size: 20px;
+    max-width: 700px;
+    margin: auto;
+}
+section{
+    background-color: white;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 8px;
+}
+section h2{
+    color: #7500c0;
+    border-bottom: 3px solid #a100ff;
+    padding-bottom: 10px;
+}
+input{
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    font-size: 16px;
+}
+button{
+    background-color: #a100ff;
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #7500c0;
+}
+iframe{
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border: none;
+}
+.roadmap-card{
+    background-color: #f7f0ff;
+    border-left: 6px solid #a100ff;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.roadmap-card h3{
+    color: #7500c0;
+    margin-top: 0;
+}
+.roadmap-card li{
+    margin-top: 8px;
+}
+footer{
+    background-color: #504d4d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
