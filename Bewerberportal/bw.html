@@ -1,229 +1,105 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bewerbung – Schülerpraktikum Accenture</title>
-<link rel="stylesheet" href="style.css">
-<style>
-
-  .bw-hero {
-    background: radial-gradient(circle at 85% 15%, rgba(161,0,255,0.35), transparent 55%), var(--acc-black);
-    color: var(--acc-white);
-    padding: 90px 6vw 70px;
-  }
-  .bw-hero h1 { color: var(--acc-white); margin-bottom: 14px; }
-  .bw-hero p { color: rgba(255,255,255,0.72); max-width: 600px; font-size: 1.05rem; }
-
-
-  .bw-steps {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 24px;
-    counter-reset: step;
-  }
-  .bw-step {
-    position: relative;
-    padding: 28px 24px 24px;
-    background: var(--acc-white);
-    border: 1px solid var(--acc-gray-300);
-    border-radius: var(--radius-lg);
-    transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease), border-color 0.3s var(--ease);
-  }
-  .bw-step:hover {
-    transform: translateY(-6px);
-    box-shadow: var(--shadow-md);
-    border-color: var(--acc-purple);
-  }
-  .bw-step-num {
-    counter-increment: step;
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: 1.6rem;
-    color: var(--acc-purple);
-    margin-bottom: 10px;
-    display: block;
-    transition: transform 0.3s var(--ease);
-  }
-  .bw-step:hover .bw-step-num { transform: translateX(4px); }
-  .bw-step p { color: var(--acc-gray-600); font-size: 0.92rem; margin: 0; }
-
-
-  .bw-testi {
-    background: var(--acc-white);
-    border: 1px solid var(--acc-gray-300);
-    border-radius: var(--radius-lg);
-    padding: 26px;
-    position: relative;
-    transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease), border-color 0.3s var(--ease);
-  }
-  .bw-testi:hover {
-    transform: translateY(-6px);
-    box-shadow: var(--shadow-md);
-    border-color: var(--acc-purple);
-  }
-  .bw-testi-quote {
-    font-size: 0.95rem;
-    color: var(--acc-gray-900);
-    line-height: 1.6;
-    margin-bottom: 18px;
-  }
-  .bw-testi-quote::before { content: '"'; color: var(--acc-purple); font-family: var(--font-display); font-weight: 700; }
-  .bw-testi-quote::after { content: '"'; color: var(--acc-purple); font-family: var(--font-display); font-weight: 700; }
-  .bw-testi-author {
-    display: flex; align-items: center; gap: 12px;
-  }
-  .bw-avatar {
-    width: 40px; height: 40px;
-    border-radius: 50%;
-    background: var(--acc-purple);
-    color: var(--acc-white);
-    display: flex; align-items: center; justify-content: center;
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: 0.9rem;
-    flex-shrink: 0;
-    transition: transform 0.3s var(--ease);
-  }
-  .bw-testi:hover .bw-avatar { transform: scale(1.08) rotate(-4deg); }
-  .bw-author-name { font-weight: 600; font-size: 0.88rem; }
-  .bw-author-role { font-size: 0.78rem; color: var(--acc-gray-600); }
-
-
-  .bw-cta {
-    background: var(--acc-gray-100);
-    border-radius: var(--radius-lg);
-    padding: 48px 6vw;
-    text-align: center;
-    margin-top: 20px;
-  }
-  .bw-cta h2 { margin-bottom: 10px; }
-  .bw-cta p { color: var(--acc-gray-600); max-width: 480px; margin: 0 auto 28px; }
-</style>
+  <meta charset="UTF-8">
+  <title>Application - Student Internship Accenture</title>
+  <link rel="stylesheet" href="bwso.css">
 </head>
 <body>
 
-<nav class="acc-nav">
-  <div class="acc-nav-brand">Schülerpraktikum<span>&gt;</span>Accenture</div>
-  <ul class="acc-nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="softskills.html">Softskills</a></li>
-    <li><a href="coding-skills.html">Coding-Skills</a></li>
-    <li><a href="bewerbung.html" style="color:#fff;">Bewerbung</a></li>
-    <li><a href="kontaktdaten.html">Kontaktdaten</a></li>
-  </ul>
-</nav>
+  <h1>Application for the Student Internship</h1>
+  <p>Here you can find out how the application process at Accenture works.</p>
 
-<header class="bw-hero">
-  <p class="acc-eyebrow" style="color:#B455FF;">Bewerberportal</p>
-  <h1>Bewerbung fürs Schülerpraktikum</h1>
-  <p>Hier erfährst du, wie der Bewerbungsprozess bei Accenture abläuft — und was unser Team dabei erlebt hat.</p>
-</header>
+  <h2>The Application Process</h2>
 
-<section class="acc-section">
-  <div style="display:flex; align-items:baseline; gap:12px; margin-bottom:8px;">
-    <span style="color:var(--acc-purple); font-family:var(--font-display); font-weight:700;">01</span>
-    <h2>Der Bewerbungsprozess</h2>
+  <div class="card">
+    <h3>1. Online Application</h3>
+    <p>Submit your CV and a short motivation letter.</p>
   </div>
-  <p style="color:var(--acc-gray-600); margin-bottom:36px; max-width:600px;">
-    In vier Schritten zum virtuellen Schülerpraktikum bei Accenture.
-  </p>
 
-  <div class="bw-steps">
-    <div class="bw-step">
-      <span class="bw-step-num">01</span>
-      <h3>Online-Bewerbung</h3>
-      <p>Lebenslauf und kurzes Motivationsschreiben über das Bewerberportal einreichen.</p>
-    </div>
-    <div class="bw-step">
-      <span class="bw-step-num">02</span>
-      <h3>Sichtung</h3>
-      <p>Das Recruiting-Team prüft die Unterlagen und meldet sich per E-Mail zurück.</p>
-    </div>
-    <div class="bw-step">
-      <span class="bw-step-num">03</span>
-      <h3>Kennenlernen</h3>
-      <p>Kurzes virtuelles Gespräch, um Erwartungen und Ablauf des Praktikums zu besprechen.</p>
-    </div>
-    <div class="bw-step">
-      <span class="bw-step-num">04</span>
-      <h3>Start</h3>
-      <p>Zusage erhalten, Teams-Zugänge einrichten und los geht's mit dem Praktikum.</p>
-    </div>
+  <div class="card">
+    <h3>2. Review</h3>
+    <p>The recruiting team checks your documents and replies by email.</p>
   </div>
-</section>
 
-<section class="acc-section" style="background:var(--acc-gray-100);">
-  <div style="display:flex; align-items:baseline; gap:12px; margin-bottom:8px;">
-    <span style="color:var(--acc-purple); font-family:var(--font-display); font-weight:700;">02</span>
-    <h2>Das sagt unser Team</h2>
+  <div class="card">
+    <h3>3. Get to Know Each Other</h3>
+    <p>A short call to talk about expectations and how the internship works.</p>
   </div>
-  <p style="color:var(--acc-gray-600); margin-bottom:36px; max-width:600px;">
-    Erfahrungsberichte aus dem Bewerbungsprozess — von uns für euch.
-  </p>
 
-  <div class="acc-grid">
-    <div class="bw-testi">
-      <p class="bw-testi-quote">Der Prozess war unkompliziert und die Rückmeldung kam schneller als erwartet.</p>
-      <div class="bw-testi-author">
-        <div class="bw-avatar">TN</div>
-        <div>
-          <div class="bw-author-name">Team-Mitglied 1</div>
-          <div class="bw-author-role">Bewerberportal-Team</div>
-        </div>
-      </div>
-    </div>
-    <div class="bw-testi">
-      <p class="bw-testi-quote">Besonders das Kennenlerngespräch hat genau die Fragen geklärt, die uns noch offen waren.</p>
-      <div class="bw-testi-author">
-        <div class="bw-avatar">TN</div>
-        <div>
-          <div class="bw-author-name">Team-Mitglied 2</div>
-          <div class="bw-author-role">Bewerberportal-Team</div>
-        </div>
-      </div>
-    </div>
-    <div class="bw-testi">
-      <p class="bw-testi-quote">Am meisten hat mir geholfen, dass klar kommuniziert wurde, was in jedem Schritt passiert.</p>
-      <div class="bw-testi-author">
-        <div class="bw-avatar">TN</div>
-        <div>
-          <div class="bw-author-name">Team-Mitglied 3</div>
-          <div class="bw-author-role">Bewerberportal-Team</div>
-        </div>
-      </div>
-    </div>
+  <div class="card">
+    <h3>4. Start</h3>
+    <p>You get accepted and the internship begins.</p>
   </div>
-  <p style="font-size:0.8rem; color:var(--acc-gray-600); margin-top:20px;">
-    ↳ Platzhalter-Texte und Initialen — bitte durch echte Namen &amp; Zitate der Teammitglieder ersetzen.
-  </p>
-</section>
 
-<section class="acc-section">
-  <div class="bw-cta">
-    <h2>Bereit für die Bewerbung?</h2>
-    <p>Ein Klick öffnet dein Standard-Mailprogramm mit vorausgefülltem Betreff.</p>
-    <button class="acc-btn acc-btn-primary" id="applyMailBtn" style="font-size:1rem; padding:14px 30px;">
-      Jetzt bewerben &gt;
-    </button>
+  <h2>What Our Team Says</h2>
+
+  <div class="card">
+    <p>"The application process was simple and I got a reply faster than I expected."</p>
+    <p><b>Alexander</b></p>
   </div>
-</section>
 
-<footer class="acc-section-dark acc-section" style="padding:36px 6vw; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px;">
-  <span style="font-size:0.85rem; color:rgba(255,255,255,0.6);">Schülerpraktikum-Bewerberportal · Bewerbung</span>
-  <span class="acc-eyebrow" style="color:#B455FF;">Accenture<span style="color:#B455FF;">&gt;</span>2026</span>
-</footer>
+  <div class="card">
+    <p>"I liked that every step was explained clearly, so I always knew what was next."</p>
+    <p><b>Ela</b></p>
+  </div>
 
-<script>
+  <div class="card">
+    <p>"The get-to-know-you call helped me a lot, all my questions were answered."</p>
+    <p><b>Celia</b></p>
+  </div>
 
-  const RECIPIENT_EMAIL = "Nilufar.Kolayci@accenture.com";
-  const SUBJECT = "Bewerbung virtuelles Schülerpraktikum";
+  <div class="card">
+    <p>"It was easy to apply and the online form did not take much time."</p>
+    <p><b>Kadir</b></p>
+  </div>
 
-  document.getElementById("applyMailBtn").addEventListener("click", () => {
-    const mailto = `mailto:${RECIPIENT_EMAIL}?subject=${encodeURIComponent(SUBJECT)}`;
-    window.location.href = mailto;
-  });
-</script>
+  <div class="card">
+    <p>"I was nervous at first, but the whole team was very friendly during the call."</p>
+    <p><b>Farida</b></p>
+  </div>
+
+  <div class="card">
+    <p>"The recruiting team answered my email questions quickly and kindly."</p>
+    <p><b>Katharina</b></p>
+  </div>
+
+  <div class="card">
+    <p>"I liked that the process was not complicated at all, just a few clear steps."</p>
+    <p><b>Trisha</b></p>
+  </div>
+
+  <div class="card">
+    <p>"The whole application only took a few days from start to finish."</p>
+    <p><b>Maya</b></p>
+  </div>
+
+  <div class="card">
+    <p>"Everything was explained well, so I knew exactly what to expect."</p>
+    <p><b>Louis</b></p>
+  </div>
+
+  <div class="card">
+    <p>"I really enjoyed the get-to-know-you call, it made me less nervous about starting."</p>
+    <p><b>Moritz</b></p>
+  </div>
+
+  <h2>Apply Now</h2>
+  <p>Click the button to open your email program with a pre-filled subject.</p>
+
+  <button onclick="applyNow()">Apply Now</button>
+
+  <p id="message"></p>
+
+  <script>
+    function applyNow() {
+      var email = "Nilufar.Kolayei@accenture.com";
+      var subject = "Bewerbung virtuelles Schuelerpraktikum";
+      window.location.href = "mailto:" + email + "?subject=" + subject;
+
+      document.getElementById("message").innerHTML = "Opening your email program...";
+    }
+  </script>
 
 </body>
 </html>
