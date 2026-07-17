@@ -5,6 +5,78 @@ body{
     color: #222222;
     line-height: 1.6;
 }
+
+/* Navigation Bar */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 3px solid #850dca;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: -0.5px;
+}
+
+.logo span {
+    color: #a100ff; /* Accenture purple caret */
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #555555;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.nav-links a:hover {
+    background-color: #f7f0ff;
+    color: #850dca;
+}
+
+.nav-links a.active {
+    background-color: #850dca;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nav-links a {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}
+
 header{
     background-color: #850dca;
     color: white;
@@ -72,7 +144,7 @@ iframe{
     margin-top: 8px;
 }
 footer{
-    background-color: #504d4d;
+    background-color: #850dca;
     color: white;
     text-align: center;
     padding: 20px;
