@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         button.style.display = "block";
         button.style.marginTop = "10px";
-        button.style.marginBottom = "20px";
+        button.style.marginBottom = "19px";
         button.style.padding = "8px 14px";
         button.style.cursor = "pointer";
 
