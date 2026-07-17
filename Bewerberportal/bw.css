@@ -67,3 +67,10 @@ button:hover {
 nav a:hover{
     color: #7500c0;
 }
+
+hr{
+    border: none;
+    border-top: 2px solid #d7b8f8;
+    width: 90%;
+    margin: 30px auto;
+}
