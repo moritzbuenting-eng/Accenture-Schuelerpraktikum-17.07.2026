@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center, auto;
+}
+
+h1 {
+  color: #cc0000;
+}
+
+input {
+  padding: 8px;
+  width: 200px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #cc0000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.card {
+  background-color: white;
+  width: 250px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.card img {
+  width: 150px;
+}
+
+#message {
+  color: red;
+}

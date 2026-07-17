@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schülerpraktikum bei Accenture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="topbar">
+            <a class="logo" href="index.html">Schülerpraktikum</a>
+
+            <nav>
+                <a class="active" href="index.html">Home</a>
+                <a href="softskills.html">Softskills</a>
+                <a href="coding.html">Coding-Skills</a>
+                <a href="bewerbung.html">Bewerbung</a>
+                <a href="kontakt.html">Kontaktdaten</a>
+            </nav>
+        </div>
+
+        <form class="search" id="searchForm">
+            <input id="searchInput" type="search" placeholder="Thema suchen..." aria-label="Thema suchen">
+            <button type="submit">Suchen</button>
+        </form>
+        <p id="searchMessage"></p>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <div>
+                <p class="small-title">Unser Abschlussprojekt</p>
+                <h1>Willkommen beim Schülerpraktikum</h1>
+                <p>
+                    Auf dieser Website zeigen wir, was wir während unseres
+                    Schülerpraktikums bei Accenture gelernt und bearbeitet haben.
+                    Dazu gehören Softskills, Bewerbungstraining und Coding.
+                </p>
+                <a class="button" href="#roadmap">Unsere Themen</a>
+            </div>
+
+            <div class="info-box">
+                <h2>Das erwartet dich</h2>
+                <ul>
+                    <li>Einblicke in Accenture</li>
+                    <li>Ergebnisse aus Gruppenarbeiten</li>
+                    <li>Unsere Coding-Projekte</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="video-section">
+            <h2>Das virtuelle Schülerpraktikum</h2>
+            <p>In diesem Video wird das Schülerpraktikum kurz vorgestellt.</p>
+
+            <div class="video-box">
+                <iframe
+                    src="https://www.youtube.com/embed/-FLZ0xPVOGg"
+                    title="Video über das Schülerpraktikum bei Accenture"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <section id="roadmap" class="roadmap">
+            <h2>Unsere Roadmap</h2>
+            <p>Diese Themen haben uns durch das Praktikum begleitet.</p>
+
+            <div class="roadmap-list">
+                <article class="roadmap-card" data-search="präsentation projektmanagement kultur konflikt softskills">
+                    <span>1</span>
+                    <h3>Softskills</h3>
+                    <p>Präsentieren, Projekte planen, kulturelles Bewusstsein und Konfliktmanagement</p>
+                </article>
+
+                <article class="roadmap-card" data-search="bewerbertraining bewerbung digitale lernwerkstatt trainings">
+                    <span>2</span>
+                    <h3>Trainings</h3>
+                    <p>Bewerbertraining und digitale Lernwerkstatt</p>
+                </article>
+
+                <article class="roadmap-card" data-search="html css javascript js api coding programmieren">
+                    <span>3</span>
+                    <h3>Coding</h3>
+                    <p>Grundlagen in HTML, CSS, JavaScript und der Arbeit mit APIs</p>
+                </article>
+
+                <article class="roadmap-card" data-search="abschlussprojekt website ergebnisse präsentation">
+                    <span>4</span>
+                    <h3>Abschlussprojekt</h3>
+                    <p>Planung und Erstellung dieser gemeinsamen Website</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Abschlussprojekt des Schülerpraktikums bei Accenture</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
