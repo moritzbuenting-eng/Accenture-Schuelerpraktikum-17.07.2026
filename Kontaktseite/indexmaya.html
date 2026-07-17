@@ -1,0 +1,172 @@
+<head>
+<title>Kontaktdaten</title>
+
+<link rel="stylesheet" href="stylesmaya.css">
+</head>   
+<!--LOGO-->
+<body>
+<div class="kopfbereich"
+
+ <img src="accenture-logo.jpeg"
+     alt="Accenture Logo"
+     class="logo">
+ <div class="kopftext">
+
+ <h1>Kontaktdaten</h1>
+ <h2>Accenture Dienstleistungen GmbH Kronberg</h2>
+ </div>
+</div>
+<div class="inhalt">
+
+<h3>Adresse</h3>
+<p>
+    Accenture Dienstleistungen GmbH <br>
+    Campus Kronberg 1 <br>
+    D-61476 Kronberg im Taunus <br>
+    Deutschland <br>
+
+</p>
+
+<h3>Kontakt</h3>
+
+<p>
+    📞 Telefonnummer:
+    <a href="tel:+49061739499">+49 (0) 6173 94-99 </a> </a>
+   
+</p>
+<p>
+    ☎️ Telefaxnummer:
+    <a href="tel:+49061739498">+49 (0) 6173 94-98 </a> </a>
+</p>
+
+
+
+
+<!--
+<h3>E-Mail</h3>
+<p id="email"></p>
+
+<button onclick ="zeigeEmail()">
+    E-Mail anzeigen
+</button>
+
+<script>
+    //greift auf HTML zurück über java mit .innerhTML
+    function zeigeEmail() {
+        document.getElementById("email").innerHTML = "Accenture.direct.ela@accenture.com";
+    }
+</script>
+--> 
+<p>📧 E-Mail:
+
+    <a href="mailto:Accenture.direct.ela@accenture.com">
+        Accenture.direct.ela@accenture.com
+    </a>
+    
+</p>
+
+<h3>Standort auf Google Maps</h3>
+<!-- emebd bedeutet karte wird angezeigt -->
+<iframe
+
+    src="https://www.google.com/maps?q=Campus%20Kronberg%201%2C%2061476%20Kronberg%20im%20Taunus&output=embed"
+    width="500"
+    height="350">
+</iframe>
+
+<h3>Weitere Standorte</h3>
+<p>
+    Hier können weitere Accenture Standorte gefunden werden:
+</p>
+<!-- blank bedeutet neuer tab und href ist externe datei und a beduetet verlinken-->
+<a href="https://www.accenture.com/de-de/about/location" target="_blank">
+    Accenture Office Look-up
+</a>
+<!--
+zwei absäte 
+<br><br>
+  bei anklick wird funktion nachricht benutzt 
+  <button onclick="nachricht()">
+    Kontakt aufnehmen  Das sieht man dann 
+  </button>
+
+   zweiter Java bereich 
+   <script>
+     Funktion erstellt
+    function nachricht() {
+        alert("Vielen Dank für ihr Interesse an Accenture");
+    }
+   </script>
+-->
+<h3>Social Media</h3>
+
+<p>
+    <a href="https://www.instagram.com/accenture" target="_blank">Instagram</a>
+    <br>
+
+    <a href="https://www.linkedin.com/company/accenture" target="_blank">LinkedIn</a>
+</p>
+
+
+<h3> Kontaktformular</h3>
+
+<p>
+    Sie haben Fragen? Nutzen Sie gerne das folgende Kontaktformular.
+</p>
+<!--Beginn des Formulars-->
+<form>
+<!--Label ist das eingabefeld-->
+<label for="name">Name:</label>
+<br>
+<!-- input ist eingabefeld-->
+<input type="text" id="name" name="name">
+
+<br><br>
+<!-- Eamil2 da wir schon email haben-->
+<label for="email2">E-Mail:</label>
+<br>
+<input type="email" id="email2" name="email">
+
+<br><br>
+
+<label for="nachricht">Nachricht:</label>
+<br>
+<!--Textarea für längere texte mit zeilen und zeichenangabe-->
+<textarea id="nachricht" name="nachricht" rows="5" cols="40"></textarea>
+
+<br><br>
+<!--Button erstellen-->
+<button type="submit">
+    Nachricht senden
+</button>
+
+</form>
+
+<br><br>
+<!--Waagerechte Linie-->
+<hr>
+<h2>Impressum</h2>
+
+<p>
+Informationspflichten gemäß § 5 Digitale-Dienste-Gesetz (DDG).
+</p>
+
+<p>
+Diese Webseite wurde im Rahmen eines Schülerpraktikums erstellt und dient ausschließlich Übungszwecken.
+Sie stellt keine offizielle Webseite der Accenture Dienstleistungen GmbH dar.
+</p>
+
+<p>
+Weitere Informationen finden Sie auf der offiziellen Webseite von Accenture.
+</p>
+
+<a href="https://www.accenture.com/de-de/about/company/impressum" target="_blank">
+    Zum offiziellen Impressum
+</a>
+</div>
+<footer>
+<p>
+    © 2026 Accenture Dienstleistungen GmbH
+</p>
+</footer>
+</body>
